@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="intnet.kerberosstudios.com.intnetapp.LoginFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fill in your information"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="30sp" />
+
+        <ListView
+            android:id="@+id/profileList"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Title">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/registerUserButton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/profileList"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_button"
+            android:text="Register User"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</FrameLayout>
+

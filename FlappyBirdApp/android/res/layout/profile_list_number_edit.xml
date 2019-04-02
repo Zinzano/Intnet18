@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <TextView
+        android:id="@+id/profileParaName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="Name: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/profileParameter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/profileParaName"
+        android:allowUndo="false"
+        android:inputType="number"
+        android:text="666"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/acceptEdit"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/discardEdit"
+        android:background="@drawable/ic_check_black_24dp" />
+
+    <Button
+        android:id="@+id/discardEdit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_cancel_black_24dp" />
+
+</RelativeLayout>

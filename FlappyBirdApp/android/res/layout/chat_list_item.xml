@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_poster"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/droid" />
+
+    <TextView
+        android:id="@+id/profileParaName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_poster"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView_poster"
+        android:gravity="left|center_vertical"
+        android:text="Martin"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/profileParaName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/profileParaName"
+        android:gravity="right|center_vertical"
+        android:paddingRight="20pt"
+        android:text="333"
+        android:textSize="16dp" />
+
+</RelativeLayout>

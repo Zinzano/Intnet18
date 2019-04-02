@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kerberosstudios.flappybird.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/messageList"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            >
+
+        </ListView>
+
+        <EditText
+            android:id="@+id/inputMessage"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/messageList"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Enter you message"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/sendMessageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/messageList"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/inputMessage"
+            android:text="Send" />
+    </RelativeLayout>
+
+</FrameLayout>

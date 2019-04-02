@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="75sp" />
+
+    <ImageView
+        android:id="@+id/imageView_poster"
+        android:layout_toRightOf="@+id/position"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/droid" />
+
+    <TextView
+        android:id="@+id/profileParaName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/imageView_poster"
+        android:text="Martin"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profileParameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileParaName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageView_poster"
+        android:text="High Score:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView_release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileParaName"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/profileParameter"
+        android:text="333"
+        android:textSize="16dp" />
+
+</RelativeLayout>
