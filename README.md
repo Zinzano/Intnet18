@@ -17,7 +17,7 @@
 -   Chat with other players.
 
     
-![](https://gits-15.sys.kth.se/intnet18/tornkvi-project/blob/master/ezgif-1-e0a6eab163.gif)
+![](https://github.com/Zinzano/Intnet18/blob/master/ezgif-1-e0a6eab163.gif)
 
 ### Install instructions
 
