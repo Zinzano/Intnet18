@@ -23,7 +23,7 @@
 
 #### Server
 
-1. Clone `git@gits-15.sys.kth.se:intnet18/tornkvi-project.git`.
+1. Clone `https://github.com/Zinzano/Intnet18.git`.
 2. Navigate to directory FlappyBirdBackend.
 3. Run `npm install` to install all dependencies.
 4. Start server with `npm start`.
