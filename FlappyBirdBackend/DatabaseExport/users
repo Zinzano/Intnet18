@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5aa135e5d6f6f66a010a0dd5"},"email":"freddejn@mail.com","password":"1234","nickname":"Patte","firstName":"Patrick","lastName":"Rothfuss","age":10,"street":"Spelmanshojden","streetNumber":9,"city":"Sundbyberg","__v":0}
+{"_id":{"$oid":"5aa135e5d6f6f66a010a0dd6"},"email":"fred@mail.com","password":"aaaabbbb","nickname":"Fredde","firstName":"Fred","lastName":"Flinta","age":10,"street":"Gata","streetNumber":20,"city":"Stad","__v":0}

@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5aa135e6d6f6f66a010a0ddb"},"gameId":{"$oid":"5aa135e6d6f6f66a010a0dd9"},"userId":{"$oid":"5aa135e5d6f6f66a010a0dd5"},"score":10,"date":{"$date":"2018-03-08T13:08:54.460Z"},"__v":0}
+{"_id":{"$oid":"5aa135e6d6f6f66a010a0ddc"},"gameId":{"$oid":"5aa135e6d6f6f66a010a0dd9"},"userId":{"$oid":"5aa135e5d6f6f66a010a0dd6"},"score":40,"date":{"$date":"2018-03-08T13:08:54.461Z"},"__v":0}
